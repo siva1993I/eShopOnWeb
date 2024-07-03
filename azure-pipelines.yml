@@ -68,5 +68,5 @@ stages:
               ConnectionType: AzureRM
               azureSubscription: 'eshopdeploy'
               appType: webApp
-              WebAppName: 'prkwebapp1'
+              WebAppName: 'prkwebapp9'
               packageForLinux: '$(Build.Artifactstagingdirectory)/**/web.zip'
