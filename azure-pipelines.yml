@@ -43,10 +43,10 @@ stages:
           inputs:
            command: 'publish'
            publishWebProjects: true
-           arguments: '-o $(build.artifactstagingdirectory)'
+           arguments: '-o $(Build.Artifactstagingdirectory)'
         - task: PublishBuildArtifacts@1
           displayName: publish artifacts
           inputs:
-            PathtoPublish: '$(build.artifactstagingdirectory'
+            PathtoPublish: '$(Build.Artifactstagingdirectory'
             ArtifactName: retailapp
 
