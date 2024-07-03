@@ -47,6 +47,6 @@ stages:
         - task: PublishBuildArtifacts@1
           displayName: publish artifacts
           inputs:
-            PathtoPublish: '$(Build.Artifactstagingdirectory'
+            PathtoPublish: '$(Build.Artifactstagingdirectory)'
             ArtifactName: retailapp
 
